@@ -69,7 +69,7 @@ Head over to `test` folder and create a new file to write the tests.
 - Double-check the Etherscan link to ensure it directs to the correct contract and network.
 - The smart contract code should be well-commented for clarity and understanding.
 - Test scripts should cover all critical paths and edge cases in the contract functionality.
-- The README should clearly guide through the setup, deployment process, and how to run the tests.
+- The README must contain the Sepolia Etherscan link of the deployed contract.
 
 ## License
 
