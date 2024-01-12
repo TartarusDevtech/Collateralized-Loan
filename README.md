@@ -61,7 +61,7 @@ Head over to `test` folder and create a new file to write the tests.
 - The repository should include:
   - The Solidity smart contract code.
   - Hardhat test scripts.
-  - A README file documenting the deployment process and any relevant project information.
+  - A README file containing the Sepolia Etherscan link of the deployed contract
 
 ### **Notes for Submission**
 
