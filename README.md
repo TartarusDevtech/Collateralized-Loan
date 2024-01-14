@@ -1,54 +1,75 @@
-# README Template
+# Project: Collateralized Loan Smart Contract Development
 
-Below is a template provided for use when building your README file for students.
-
-# Project Title
-
-Project description goes here.
+In this project, you will develop, deploy, and interact with a simple collateralized loan contract on the Ethereum blockchain using Solidity. This contract will manage loans backed by Ethereum as collateral, offering hands-on experience with real-world financial smart contracts.
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+Use the following command to clone the repo:
+
+```
+git clone Getting https://github.com/udacity/cd13282-blockchain-with-solidity-project
+
+cd cd13282-blockchain-with-solidity-project
+```
+
+Once you have the starter code, head over to the `starter` directory. You will notice two folders: `hardhat-js` and `hardhat-ts`. We have mostly been using hardhat with JavaScript.
 
 ### Dependencies
 
-```
-Examples here
-```
+We will mostly use hardhat for this project to write, deploy and test the smart contract.
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
+Head over to `hardhat-js` and install the necessary dependencies with the following command.
 
 ```
-Give an example here
+npm install
 ```
+
+You will also find a file `.env.example` , you will need to create a `.env` file similar to that.
+
+```
+INFURA_API_KEY=
+ACCOUNT_PRIVATE_KEY=
+```
+
+Add your wallet private key and [infura](https://www.infura.io/) API key.
 
 ## Testing
 
-Explain the steps needed to run any automated tests
+Head over to `test` folder and create a new file to write the tests.
 
-### Break Down Tests
+### **Project Deliverables**
 
-Explain what each test does and why
+### 1. Deploy the Smart Contract on Sepolia Testnet
 
-```
-Examples here
-```
+- Successfully deploy your Collateralized Loan smart contract to the Sepolia testnet.
 
-## Project Instructions
+### 2. Write the Smart Contract and Test Script
 
-This section should contain all the student deliverables for this project.
+- Develop and finalize the Solidity code for the Collateralized Loan contract.
+- Write comprehensive test scripts using Hardhat to validate the contract's functionalities.
 
-## Built With
+### 3. Etherscan Verification
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
+- Provide a link to the Sepolia Etherscan page confirming the successful deployment of your contract.
+- The Etherscan link should display the contract address and transaction details on the Sepolia testnet.
 
-Include all items used to build project.
+### 4. GitHub Repository Link
+
+- Submit the link to your GitHub repository containing the project.
+- The repository should include:
+  - The Solidity smart contract code.
+  - Hardhat test scripts.
+  - A README file containing the Sepolia Etherscan link of the deployed contract
+
+### **Notes for Submission**
+
+- Ensure that the GitHub repository is public and accessible.
+- Double-check the Etherscan link to ensure it directs to the correct contract and network.
+- The smart contract code should be well-commented for clarity and understanding.
+- Test scripts should cover all critical paths and edge cases in the contract functionality.
+- The README must contain the Sepolia Etherscan link of the deployed contract.
 
 ## License
 
