@@ -12,7 +12,7 @@ git clone Getting https://github.com/udacity/cd13282-blockchain-with-solidity-pr
 cd cd13282-blockchain-with-solidity-project
 ```
 
-Once you have the starter code, head over to the `starter` directory. You will notice two folders: `hardhat-js` and `hardhat-ts`. We have mostly been using hardhat with JavaScript.
+Once you have the starter code, head over to the `starter` directory. You will notice one folder: `hardhat-js` . We have mostly been using hardhat with JavaScript.
 
 ### Dependencies
 
@@ -45,7 +45,7 @@ Head over to `test` folder and create a new file to write the tests.
 
 - Successfully deploy your Collateralized Loan smart contract to the Sepolia testnet.
 
-### 2. Write the Smart Contract and Test Script
+### 2. Write the Smart Contract and Hardhat Test Script
 
 - Develop and finalize the Solidity code for the Collateralized Loan contract.
 - Write comprehensive test scripts using Hardhat to validate the contract's functionalities.
@@ -68,7 +68,7 @@ Head over to `test` folder and create a new file to write the tests.
 - Ensure that the GitHub repository is public and accessible.
 - Double-check the Etherscan link to ensure it directs to the correct contract and network.
 - The smart contract code should be well-commented for clarity and understanding.
-- Test scripts should cover all critical paths and edge cases in the contract functionality.
+- Hardhat Test Scripts should cover all critical paths and edge cases in the contract functionality.
 - The README must contain the Sepolia Etherscan link of the deployed contract.
 
 ## License
