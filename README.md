@@ -12,15 +12,17 @@ git clone Getting https://github.com/udacity/cd13282-blockchain-with-solidity-pr
 cd cd13282-blockchain-with-solidity-project
 ```
 
-Once you have the starter code, head over to the `starter` directory. You will notice one folder: `hardhat-js` . We have mostly been using hardhat with JavaScript.
+Once you have the starter code, head over to the `starter` directory. You will notice one folder: `hardhat-js` . We have mostly been using Hardhat with JavaScript.
 
 ### Dependencies
 
-We will mostly use hardhat for this project to write, deploy and test the smart contract.
+We will mostly use Hardhat for this project to write, deploy, and test the smart contract.
 
 ### Installation
 
-Head over to `hardhat-js` and install the necessary dependencies with the following command.
+If you are using Udacity's workspace, you do **NOT** need to install any software packages. 
+
+If you are using your local environment, head over to `hardhat-js` and install the necessary dependencies using the following command.
 
 ```
 npm install
