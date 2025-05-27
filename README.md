@@ -7,9 +7,9 @@ In this project, you will develop, deploy, and interact with a simple collateral
 Use the following command to clone the repo:
 
 ```
-git clone Getting https://github.com/udacity/cd13282-blockchain-with-solidity-project
+git clone https://github.com/TartarusDevtech/Collateralized-Loan.git
+cd Collateralized-Loan
 
-cd cd13282-blockchain-with-solidity-project
 ```
 
 Once you have the starter code, head over to the `starter` directory. You will notice one folder: `hardhat-js` . We have mostly been using Hardhat with JavaScript.
